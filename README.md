@@ -3,8 +3,8 @@
 
 <br>
 
-- 🌱 Currently attending a Master's Degree in Data Science
-- 🎓 Bachelor's Degree in Statistics and Economic Sciences
+- 🎓 Master's Degree in Data Science
+- 🌱 Bachelor's Degree in Statistics and Economic Sciences
 - 📑 B2 English Level
 - 👉 You can check out some of my projects [here](https://github.com/enricomannarino/Data-Science-projects)
 - 📫 You can contact me on LinkedIn for any need!
