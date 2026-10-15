@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="60" viewBox="0 0 1280 60">
+  <title>Back to top</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2c9ab7" stop-opacity="0"/><stop offset=".5" stop-color="#6cc4dc"/><stop offset="1" stop-color="#2c9ab7" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>
+    .w { fill: none; stroke: url(#g); stroke-width: 2; stroke-dasharray: 8 10; animation: f 3s linear infinite; }
+    .w2 { opacity: .45; animation-duration: 5s; animation-direction: reverse; }
+    @keyframes f { to { stroke-dashoffset: -72; } }
+  </style>
+  <path class="w" d="M0 30 C 160 6, 320 54, 480 30 S 800 6, 960 30 S 1120 54, 1280 30"/>
+  <path class="w w2" d="M0 30 C 160 54, 320 6, 480 30 S 800 54, 960 30 S 1120 6, 1280 30"/>
+</svg>

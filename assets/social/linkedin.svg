@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>LinkedIn</title>
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6cc4dc"/><stop offset="1" stop-color="#2c9ab7"/>
+    </linearGradient>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="256" height="256" rx="60"/></clipPath>
+  </defs>
+  <style>
+    .glow { opacity: 0; animation: glow 5s ease-in-out 0.00s infinite; }
+    .shine { transform: translateX(-320px) skewX(-20deg); animation: shine 5s ease-in-out 0.00s infinite; }
+    @keyframes glow { 0%, 30%, 100% { opacity: 0; } 12% { opacity: 1; } }
+    @keyframes shine { 0% { transform: translateX(-320px) skewX(-20deg); } 24%, 100% { transform: translateX(420px) skewX(-20deg); } }
+  </style>
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+  <g fill="none"><rect width="256" height="256" fill="#0a66c2" rx="60"/><path fill="#fff" d="M184.715 217.685h29.27a4 4 0 0 0 4-3.999l.015-61.842c0-32.323-6.965-57.168-44.738-57.168c-14.359-.534-27.9 6.868-35.207 19.228a.32.32 0 0 1-.595-.161V101.66a4 4 0 0 0-4-4h-27.777a4 4 0 0 0-4 4v112.02a4 4 0 0 0 4 4h29.268a4 4 0 0 0 4-4v-55.373c0-15.657 2.97-30.82 22.381-30.82c19.135 0 19.383 17.916 19.383 31.834v54.364a4 4 0 0 0 4 4M38 59.628c0 11.864 9.767 21.626 21.632 21.626c11.862-.001 21.623-9.769 21.623-21.631C81.253 47.761 71.491 38 59.628 38C47.762 38 38 47.763 38 59.627m6.959 158.058h29.307a4 4 0 0 0 4-4V101.66a4 4 0 0 0-4-4H44.959a4 4 0 0 0-4 4v112.025a4 4 0 0 0 4 4"/></g>
+  <g clip-path="url(#c)"><rect class="shine" x="0" y="-40" width="110" height="340" fill="url(#s)"/></g>
+  <rect class="glow" x="4" y="4" width="248" height="248" rx="56" fill="none" stroke="url(#b)" stroke-width="8"/>
+</svg>

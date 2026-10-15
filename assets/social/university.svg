@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>University of Milano-Bicocca</title>
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6cc4dc"/><stop offset="1" stop-color="#2c9ab7"/>
+    </linearGradient>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="256" height="256" rx="60"/></clipPath>
+  </defs>
+  <style>
+    .glow { opacity: 0; animation: glow 5s ease-in-out 0.14s infinite; }
+    .shine { transform: translateX(-320px) skewX(-20deg); animation: shine 5s ease-in-out 0.14s infinite; }
+    @keyframes glow { 0%, 30%, 100% { opacity: 0; } 12% { opacity: 1; } }
+    @keyframes shine { 0% { transform: translateX(-320px) skewX(-20deg); } 24%, 100% { transform: translateX(420px) skewX(-20deg); } }
+  </style>
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M128 64 L224 108 L128 152 L32 108 Z" fill="#6cc4dc"/>
+    <path d="M72 128 V170 C72 190 184 190 184 170 V128 L128 152 Z" fill="#2c9ab7"/>
+    <path d="M206 116 V168" stroke="#e6edf3" stroke-width="8"/>
+    <circle cx="206" cy="176" r="10" fill="#e6edf3"/>
+  </g>
+  <g clip-path="url(#c)"><rect class="shine" x="0" y="-40" width="110" height="340" fill="url(#s)"/></g>
+  <rect class="glow" x="4" y="4" width="248" height="248" rx="56" fill="none" stroke="url(#b)" stroke-width="8"/>
+</svg>

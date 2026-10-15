@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>Python</title>
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6cc4dc"/><stop offset="1" stop-color="#2c9ab7"/>
+    </linearGradient>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="256" height="256" rx="60"/></clipPath>
+  </defs>
+  <style>
+    .glow { opacity: 0; animation: glow 5s ease-in-out 0.00s infinite; }
+    .shine { transform: translateX(-320px) skewX(-20deg); animation: shine 5s ease-in-out 0.00s infinite; }
+    @keyframes glow { 0%, 30%, 100% { opacity: 0; } 12% { opacity: 1; } }
+    @keyframes shine { 0% { transform: translateX(-320px) skewX(-20deg); } 24%, 100% { transform: translateX(420px) skewX(-20deg); } }
+  </style>
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+  <g fill="none"><rect width="256" height="256" fill="#242938" rx="60"/><path fill="url(#python-SVGlrgY0cGU)" d="M127.279 29c-50.772 0-47.602 22.018-47.602 22.018l.057 22.81h48.451v6.85H60.489S28 76.992 28 128.221s28.357 49.414 28.357 49.414h16.924v-23.773s-.912-28.357 27.905-28.357h48.054s26.999.436 26.999-26.094V55.546S180.338 29 127.279 29m-26.716 15.339a8.71 8.71 0 0 1 8.717 8.717a8.71 8.71 0 0 1-8.717 8.716a8.71 8.71 0 0 1-8.716-8.716a8.71 8.71 0 0 1 8.716-8.717"/><path fill="url(#python-SVGk738oeKp)" d="M128.721 227.958c50.772 0 47.602-22.017 47.602-22.017l-.057-22.811h-48.451v-6.849h67.696S228 179.966 228 128.736s-28.357-49.413-28.357-49.413h-16.924v23.773s.912 28.357-27.905 28.357H106.76s-27-.437-27 26.093v43.866s-4.099 26.546 48.961 26.546m26.716-15.339a8.71 8.71 0 0 1-8.717-8.716a8.71 8.71 0 0 1 8.717-8.717a8.71 8.71 0 0 1 8.717 8.717a8.71 8.71 0 0 1-8.717 8.716"/><defs><linearGradient id="python-SVGlrgY0cGU" x1="47.22" x2="146.333" y1="46.896" y2="145.02" gradientUnits="userSpaceOnUse"><stop stop-color="#387eb8"/><stop offset="1" stop-color="#366994"/></linearGradient><linearGradient id="python-SVGk738oeKp" x1="108.056" x2="214.492" y1="109.905" y2="210.522" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe052"/><stop offset="1" stop-color="#ffc331"/></linearGradient></defs></g>
+  <g clip-path="url(#c)"><rect class="shine" x="0" y="-40" width="110" height="340" fill="url(#s)"/></g>
+  <rect class="glow" x="4" y="4" width="248" height="248" rx="56" fill="none" stroke="url(#b)" stroke-width="8"/>
+</svg>

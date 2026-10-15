@@ -1,62 +1,51 @@
-<a href="https://www.linkedin.com/in/enrico-mannarino/">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Enrico%20Mannarino&fontSize=40&fontColor=ffffff&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20Milan&descSize=16&descAlignY=56" width="100%" alt="Enrico Mannarino — AI Engineer, Milan" />
-</a>
+<a href="https://www.linkedin.com/in/enrico-mannarino/"><img src="assets/header.svg" width="100%" alt="Enrico Mannarino — AI Engineer, Milan" /></a>
 
-I'm an AI Engineer at [Moviri](https://www.moviri.com), working on large language models across their lifecycle, from data to training to evaluation.
-My background is in statistics and data science, which still shapes how I look at models: measure first, then trust.
+<p align="center">
+  <a href="https://www.linkedin.com/in/enrico-mannarino/"><img src="assets/social/linkedin.svg" width="44" alt="LinkedIn" title="LinkedIn" /></a>&nbsp;&nbsp;
+  <a href="https://www.unimib.it"><img src="assets/social/university.svg" width="44" alt="University of Milano-Bicocca" title="University of Milano-Bicocca" /></a>
+</p>
 
-<a href="https://www.linkedin.com/in/enrico-mannarino/"><img src="https://img.shields.io/badge/LinkedIn-enrico--mannarino-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://www.unimib.it"><img src="https://img.shields.io/badge/MSc_Data_Science-Milano--Bicocca-203a43?style=flat-square" alt="MSc Data Science, University of Milano-Bicocca" /></a>
+<a href="https://www.linkedin.com/in/enrico-mannarino/"><img src="assets/about.svg" width="100%" alt="about.py — AI Engineer at Moviri, Milan. Focus: LLMs, distributed training, evaluation, MLOps. MSc Data Science (NLP) and BSc Statistics & Economics, University of Milano-Bicocca." /></a>
 
-### Tech stack
+<h3 align="center">Tech stack</h3>
 
-<table>
+<table align="center">
   <tr>
-    <td><b>Languages</b></td>
+    <td align="right"><sub><b>LANGUAGES</b></sub></td>
     <td>
-      <a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=py" height="40" alt="Python" /></a>
-      <a href="https://www.r-project.org"><img src="https://skillicons.dev/icons?i=r" height="40" alt="R" /></a>
-      <a href="https://www.gnu.org/software/bash/"><img src="https://skillicons.dev/icons?i=bash" height="40" alt="Bash" /></a>
+      <a href="https://www.python.org"><img src="assets/tech/python.svg" width="46" alt="Python" title="Python" /></a>
+      <a href="https://www.r-project.org"><img src="assets/tech/r.svg" width="46" alt="R" title="R" /></a>
+      <a href="https://www.gnu.org/software/bash/"><img src="assets/tech/bash.svg" width="46" alt="Bash" title="Bash" /></a>
     </td>
   </tr>
   <tr>
-    <td><b>ML &amp; LLMs</b></td>
+    <td align="right"><sub><b>ML &amp; LLMs</b></sub></td>
     <td>
-      <a href="https://pytorch.org"><img src="https://skillicons.dev/icons?i=pytorch" height="40" alt="PyTorch" /></a>
-      <a href="https://www.tensorflow.org"><img src="https://skillicons.dev/icons?i=tensorflow" height="40" alt="TensorFlow" /></a>
-      <a href="https://scikit-learn.org"><img src="https://skillicons.dev/icons?i=sklearn" height="40" alt="scikit-learn" /></a>
-      <br />
-      <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
-      <a href="https://docs.vllm.ai"><img src="https://img.shields.io/badge/vLLM-30A2FF?style=flat-square" alt="vLLM" /></a>
+      <a href="https://pytorch.org"><img src="assets/tech/pytorch.svg" width="46" alt="PyTorch" title="PyTorch" /></a>
+      <a href="https://www.tensorflow.org"><img src="assets/tech/tensorflow.svg" width="46" alt="TensorFlow" title="TensorFlow" /></a>
+      <a href="https://scikit-learn.org"><img src="assets/tech/scikitlearn.svg" width="46" alt="scikit-learn" title="scikit-learn" /></a>
+      <a href="https://huggingface.co"><img src="assets/tech/huggingface.svg" width="46" alt="Hugging Face" title="Hugging Face" /></a>
+      <a href="https://docs.vllm.ai"><img src="assets/tech/vllm.svg" width="46" alt="vLLM" title="vLLM" /></a>
     </td>
   </tr>
   <tr>
-    <td><b>Infra &amp; MLOps</b></td>
+    <td align="right"><sub><b>INFRA &amp; MLOPS</b></sub></td>
     <td>
-      <a href="https://kubernetes.io"><img src="https://skillicons.dev/icons?i=kubernetes" height="40" alt="Kubernetes" /></a>
-      <a href="https://www.docker.com"><img src="https://skillicons.dev/icons?i=docker" height="40" alt="Docker" /></a>
-      <a href="https://about.gitlab.com"><img src="https://skillicons.dev/icons?i=gitlab" height="40" alt="GitLab" /></a>
-      <br />
-      <a href="https://www.kubeflow.org"><img src="https://img.shields.io/badge/Kubeflow-326CE5?style=flat-square&logo=kubeflow&logoColor=white" alt="Kubeflow" /></a>
-      <a href="https://argo-cd.readthedocs.io"><img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="Argo CD" /></a>
+      <a href="https://kubernetes.io"><img src="assets/tech/kubernetes.svg" width="46" alt="Kubernetes" title="Kubernetes" /></a>
+      <a href="https://www.docker.com"><img src="assets/tech/docker.svg" width="46" alt="Docker" title="Docker" /></a>
+      <a href="https://www.kubeflow.org"><img src="assets/tech/kubeflow.svg" width="46" alt="Kubeflow" title="Kubeflow" /></a>
+      <a href="https://argo-cd.readthedocs.io"><img src="assets/tech/argocd.svg" width="46" alt="Argo CD" title="Argo CD" /></a>
+      <a href="https://about.gitlab.com"><img src="assets/tech/gitlab.svg" width="46" alt="GitLab" title="GitLab" /></a>
     </td>
   </tr>
   <tr>
-    <td><b>Data</b></td>
+    <td align="right"><sub><b>DATA</b></sub></td>
     <td>
-      <a href="https://www.mongodb.com"><img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="MongoDB" /></a>
-      <a href="https://www.mysql.com"><img src="https://skillicons.dev/icons?i=mysql" height="40" alt="MySQL" /></a>
-      <br />
-      <a href="https://spark.apache.org"><img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" alt="Apache Spark" /></a>
+      <a href="https://spark.apache.org"><img src="assets/tech/apachespark.svg" width="46" alt="Apache Spark" title="Apache Spark" /></a>
+      <a href="https://www.mongodb.com"><img src="assets/tech/mongodb.svg" width="46" alt="MongoDB" title="MongoDB" /></a>
+      <a href="https://www.mysql.com"><img src="assets/tech/mysql.svg" width="46" alt="MySQL" title="MySQL" /></a>
     </td>
   </tr>
 </table>
 
-### Activity
-
-<a href="https://github.com/enricomannarino">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/enricomannarino/enricomannarino/output/snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/enricomannarino/enricomannarino/output/snake.svg" width="100%" alt="Contribution graph being eaten by a snake" />
-  </picture>
-</a>
+<a href="#"><img src="assets/footer.svg" width="100%" alt="" /></a>
