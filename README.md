@@ -1,17 +1,14 @@
-<h1 align="center">Hi there👋, I'm Enrico Mannarino</h1>
-<h3 align="center">A passionate AI Engineer and Data Scientist</h3>
+### Enrico Mannarino
 
-<br>
+AI Engineer at [Moviri](https://www.moviri.com), based in Milan.
 
-- 🧑🏻‍💻 AI Engineer
-- 🎓 MSc in Data Science, BSc in Statistics and Economic Sciences
-- 📫 You can contact me on LinkedIn for any need!
+I work on large language models across their lifecycle, from data to training to evaluation. My background is in statistics and data science, which still shapes how I look at models: measure first, then trust.
 
+**Education**\
+University of Milano-Bicocca — MSc in Data Science (NLP), BSc in Statistical and Economic Sciences
 
+**Working with**\
+Python · PyTorch · Hugging Face · Kubernetes · Docker · SQL
 
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/enrico-mannarino" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="luca-ga" height="30" width="40" /></a>
-
-</p>
+**Elsewhere**\
+[LinkedIn](https://linkedin.com/in/enrico-mannarino)
