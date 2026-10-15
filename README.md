@@ -1,11 +1,10 @@
 <h1 align="center">Hi there👋, I'm Enrico Mannarino</h1>
-<h3 align="center">A passionate Data Scientist and Statistician</h3>
+<h3 align="center">A passionate AI Engineer and Data Scientist</h3>
 
 <br>
 
 - 🧑🏻‍💻 AI Engineer
 - 🎓 MSc in Data Science, BSc in Statistics and Economic Sciences
-- 📑 B2 English Level
 - 📫 You can contact me on LinkedIn for any need!
 
 
